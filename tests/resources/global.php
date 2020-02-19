@@ -9,7 +9,7 @@ return [
 
     'service_manager' => [
         'factories' => [
-            \Go\Zend\Framework\Tests\Aspect\TestAspect::class => \Zend\ServiceManager\Factory\InvokableFactory::class,
+            \Go\Zend\Framework\Tests\Aspect\TestAspect::class => \Laminas\ServiceManager\Factory\InvokableFactory::class,
         ],
     ],
 ];

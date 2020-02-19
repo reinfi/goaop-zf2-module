@@ -13,8 +13,8 @@ namespace Go\Zend\Framework\Factory;
 use Go\Zend\Framework\Kernel\AspectKernel;
 use Go\Zend\Framework\Module;
 use Interop\Container\ContainerInterface;
-use Zend\ServiceManager\FactoryInterface;
-use Zend\ServiceManager\ServiceLocatorInterface;
+use Laminas\ServiceManager\FactoryInterface;
+use Laminas\ServiceManager\ServiceLocatorInterface;
 
 class AspectKernelFactory implements FactoryInterface
 {

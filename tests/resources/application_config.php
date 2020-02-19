@@ -4,8 +4,8 @@ $modules = [
     'Go\Zend\Framework',
 ];
 
-if (class_exists('Zend\Router\Module')) {
-    $modules[] = 'Zend\Router';
+if (class_exists('Laminas\Router\Module')) {
+    $modules[] = 'Laminas\Router';
 }
 
 return [

@@ -7,10 +7,10 @@ use Go\Core\AspectContainer;
 use Go\Zend\Framework\Module;
 use PHPUnit\Framework\TestCase;
 use Prophecy\Argument;
-use Zend\EventManager\EventManagerInterface;
-use Zend\ModuleManager\ModuleEvent;
-use Zend\ModuleManager\ModuleManagerInterface;
-use Zend\ServiceManager\ServiceManager;
+use Laminas\EventManager\EventManagerInterface;
+use Laminas\ModuleManager\ModuleEvent;
+use Laminas\ModuleManager\ModuleManagerInterface;
+use Laminas\ServiceManager\ServiceManager;
 
 /**
  * @package Go\Zend\Framework\Tests\Unit

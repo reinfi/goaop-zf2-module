@@ -6,7 +6,7 @@ use Go\Core\AspectKernel;
 use Go\Zend\Framework\Factory\AspectKernelFactory;
 use Go\Zend\Framework\Module;
 use PHPUnit\Framework\TestCase;
-use Zend\ServiceManager\ServiceLocatorInterface;
+use Laminas\ServiceManager\ServiceLocatorInterface;
 
 /**
  * @package Go\Zend\Framework\Tests\Unit\Factory

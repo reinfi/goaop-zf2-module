@@ -50,7 +50,7 @@ EOT
         // Init the application once using given config
         // This way the late static binding on the AspectKernel
         // will be on the goaop-zf2-module kernel
-        \Zend\Mvc\Application::init(include $path);
+        \Laminas\Mvc\Application::init(include $path);
 
         if (!class_exists(AspectKernel::class, false)) {
             $message = "Kernel was not initialized yet. Maybe missing module Go\ZF2\GoAopModule in config {$path}";

@@ -6,7 +6,7 @@ use Go\Core\AspectContainer;
 use Go\Core\GoAspectContainer;
 use Go\Zend\Framework\Tests\Aspect\TestAspect;
 use PHPUnit\Framework\TestCase;
-use Zend\Mvc\Application;
+use Laminas\Mvc\Application;
 
 /**
  * @package Go\Zend\Framework\Tests\Integration
